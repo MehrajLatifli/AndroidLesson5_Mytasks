@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.MainActivity"
+    android:background="#F44336"
+    android:outlineAmbientShadowColor="#000000"
+    android:outlineSpotShadowColor="#000000">
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="40dp"
+
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="#4CAF50"
+        android:outlineAmbientShadowColor="#CDDC39"
+        android:outlineSpotShadowColor="#673AB7"
+        android:paddingStart="16sp"
+        android:paddingLeft="16sp"
+        android:paddingTop="16sp"
+        android:paddingEnd="16sp"
+        android:paddingRight="16sp"
+        android:paddingBottom="16sp"
+        android:shadowColor="#FFEB3B"
+        android:text="Create"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#CDDC39"
+        android:textColorHint="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:rippleColor="#CDDC39"
+        app:strokeColor="#BFB138" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="418dp"
+        android:backgroundTint="#4CAF50"
+        android:outlineAmbientShadowColor="#CDDC39"
+        android:outlineSpotShadowColor="#673AB7"
+        android:paddingStart="16sp"
+        android:paddingLeft="16sp"
+        android:paddingTop="16sp"
+        android:paddingEnd="16sp"
+        android:paddingRight="16sp"
+        android:paddingBottom="16sp"
+        android:shadowColor="#FFEB3B"
+        android:text="View"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#CDDC39"
+        android:textColorHint="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button1"
+        app:layout_constraintVertical_bias="0.035"
+        app:rippleColor="#CDDC39"
+        app:strokeColor="#BFB138" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="265dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="73dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
