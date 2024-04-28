@@ -5,6 +5,7 @@ import com.google.gson.reflect.TypeToken
 import java.lang.reflect.Type
 
 class SharedPreferences(context: Context) {
+
     companion object {
         private const val PREF_NAME = "todo_prefs"
         private const val TODO_LIST_KEY = "todo_list"
@@ -17,6 +18,7 @@ class SharedPreferences(context: Context) {
             editor.putString(TODO_LIST_KEY, json)
             editor.apply()
         }
+
 
         fun getArrayListFromSharedPreferences(context: Context): ArrayList<Todo> {
             val sharedPreferences = context.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE)
