@@ -2,7 +2,7 @@
  
 
  
-  <h1> <img src="Logo.png" alt="Screen" width="12.5%" height="12.5%"> AndroidLesson5 (Mytasks)  </h1>
+  <h1> <img src="Logo.png" alt="Screen" width="6.25%" height="6.25%"> AndroidLesson5 (Mytasks)  </h1>
 
   
   Example for Android (Kotlin) tutorial 
